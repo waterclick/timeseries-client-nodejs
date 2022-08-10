@@ -1,0 +1,12 @@
+name: TimeSeries JS Client Build and Publish
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build-and-test:
+    uses: ./.github/workflows/lib/build-and-test.yml

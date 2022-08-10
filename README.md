@@ -1,4 +1,4 @@
-![WaterClick Logo](https://github.com/waterclick/waterclick/raw/main/external/timeseries/clients/javascript/docs/images/waterclick-logo.png)
+![WaterClick Logo](https://waterclick.github.io/images/waterclick-logo-square-128x128.png)
 
 # WaterClick TimeSeries API Client
 

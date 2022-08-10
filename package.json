@@ -8,7 +8,7 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "engines": {
-    "node": ">= 12"
+    "node": ">= 14"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,7 @@
     "deps": "yarn install --frozen-lockfile",
     "deps:reset": "rimraf node_modules",
     "build": "parcel build",
-    "ci": "run-s deps:reset deps clean build",
+    "ci": "run-s deps clean build",
     "test": "jest --ci --all --verbose",
     "test:watch": "jest --watch",
     "dev": "parcel watch"
@@ -48,8 +48,5 @@
     "axios": "^0.27.2",
     "luxon": "^3.0.1",
     "timezone-enum": "^1.0.1"
-  },
-  "peerDependencies": {
-    "axios": "^0.27.2"
   }
 }
