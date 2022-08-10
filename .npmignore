@@ -1,0 +1,4 @@
+tsconfig.json
+src
+.parcel-cache
+.parcelrc
